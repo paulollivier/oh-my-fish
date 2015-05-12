@@ -1,11 +1,11 @@
 function vundle-init
-  if [ ! -d ~/.vim/bundle/vundle/ ]
-    mkdir -p ~/.vim/bundle/vundle/
+  if [ ! -d ~/.vim/bundle/ ]
+    mkdir -p ~/.vim/bundle/
   end
 
   if [ ! -d ~/.vim/bundle/vundle/.git/ ]
-    git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    echo "\n\tRead about vim configuration for vundle at https://github.com/gmarik/vundle\n"
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    echo "\n\tRead about vim configuration for vundle at https://github.com/gmarik/Vundle.vim\n"
   end
 end
 
